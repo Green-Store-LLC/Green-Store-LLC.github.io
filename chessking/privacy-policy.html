@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for ChessKing, the chess application by Green Store.">
+  <meta name="theme-color" content="#101410">
+  <title>ChessKing — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d110e;
+      --surface: #151c16;
+      --surface-2: #1b251c;
+      --text: #edf3ed;
+      --muted: #aab7aa;
+      --accent: #8cfa00;
+      --border: #2c392d;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top right, #1a2a17 0, var(--bg) 36rem);
+      color: var(--text);
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    header { padding: 64px 0 38px; border-bottom: 1px solid var(--border); }
+    .brand { color: var(--accent); font-weight: 800; letter-spacing: .16em; font-size: .82rem; }
+    h1 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; margin: 14px 0; }
+    .lead { color: var(--muted); max-width: 720px; font-size: 1.08rem; }
+    .updated { color: var(--muted); font-size: .9rem; margin-top: 18px; }
+    .layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 38px; padding: 38px 0 70px; }
+    nav { position: sticky; top: 20px; align-self: start; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; max-height: calc(100vh - 40px); overflow: auto; }
+    nav strong { display: block; margin-bottom: 12px; color: var(--accent); }
+    nav a { display: block; color: var(--muted); font-size: .88rem; padding: 5px 0; }
+    nav a:hover { color: var(--text); }
+    main { min-width: 0; }
+    section { background: rgba(21,28,22,.82); border: 1px solid var(--border); border-radius: 16px; padding: 25px 28px; margin-bottom: 18px; scroll-margin-top: 18px; }
+    h2 { font-size: 1.28rem; margin: 0 0 12px; color: var(--accent); }
+    p { margin: 10px 0; }
+    ul { padding-left: 22px; }
+    li { margin: 5px 0; }
+    .note { color: var(--muted); font-size: .94rem; }
+    footer { border-top: 1px solid var(--border); padding: 26px 0 42px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 800px) {
+      .layout { grid-template-columns: 1fr; gap: 22px; }
+      nav { position: static; max-height: none; }
+      nav .links { columns: 2; }
+      section { padding: 21px; }
+      header { padding-top: 44px; }
+    }
+    @media (max-width: 480px) { nav .links { columns: 1; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">CHESSKING</div>
+      <h1>Privacy Policy</h1>
+      <p class="lead">This Privacy Policy explains how ChessKing handles information when you use the application, create an account, play chess, communicate with other players, or use Premium features.</p>
+      <p class="updated">Last updated: November 13, 2026</p>
+    </div>
+  </header>
 
+  <div class="wrap layout">
+    <nav aria-label="Table of contents">
+      <strong>Contents</strong>
+      <div class="links">
+        <a href="#intro">1. Introduction</a>
+        <a href="#about">2. About ChessKing</a>
+        <a href="#collect">3. Information We Collect</a>
+        <a href="#accounts">4. Accounts and Login</a>
+        <a href="#facebook">5. Facebook Login</a>
+        <a href="#guest">6. Guest Accounts</a>
+        <a href="#profiles">7. Player Profiles</a>
+        <a href="#gameplay">8. Gameplay and Analysis</a>
+        <a href="#chat">9. In-Game Chat</a>
+        <a href="#premium">10. Premium and Payments</a>
+        <a href="#firebase">11. Firebase Services</a>
+        <a href="#analytics">12. Analytics and Tracking</a>
+        <a href="#sharing">13. Sharing Information</a>
+        <a href="#retention">14. Data Retention</a>
+        <a href="#deletion">15. Account Deletion</a>
+        <a href="#security">16. Data Security</a>
+        <a href="#children">17. Children's Privacy</a>
+        <a href="#international">18. International Users</a>
+        <a href="#rights">19. Your Privacy Rights</a>
+        <a href="#thirdparty">20. Third-Party Services</a>
+        <a href="#changes">21. Policy Changes</a>
+        <a href="#contact">22. Contact Us</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="intro">
+        <h2>1. Introduction</h2>
+        <p>Welcome to ChessKing. We respect your privacy and aim to explain clearly what information is processed when you use our application. By using ChessKing, you acknowledge this Privacy Policy. If you do not agree with it, please discontinue using the application.</p>
+      </section>
+
+      <section id="about">
+        <h2>2. About ChessKing</h2>
+        <p>ChessKing is a chess application that offers online matches, local/offline games, games against the Stockfish chess engine, chess analysis and suggestions, puzzles, friends, player profiles, rankings, statistics, achievements, and in-game chat.</p>
+        <p>ChessKing is presented under the name <strong>Green Store</strong>. This name is used as a publisher or product name and does not, by itself, represent a statement about a particular registered legal entity.</p>
+      </section>
+
+      <section id="collect">
+        <h2>3. Information We Collect</h2>
+        <p>Depending on the features you use and the sign-in method you choose, ChessKing may process the following information:</p>
+        <ul>
+          <li><strong>Account information:</strong> email address when you register or sign in using email and password, authentication identifiers, and account type.</li>
+          <li><strong>Player profile:</strong> your chosen username, player ID, profile image, country/region setting, chess rating (ELO), level, achievements, game statistics, and other profile details you choose to provide.</li>
+          <li><strong>Social links:</strong> links to social media profiles that you voluntarily add to your player profile. These may be visible to other players.</li>
+          <li><strong>Game information:</strong> match records and information needed to operate online games, rankings, statistics, and related features.</li>
+          <li><strong>Uploaded profile images:</strong> if you use a Premium feature to upload an image from your device, that image is stored using Firebase Storage.</li>
+          <li><strong>Chat messages:</strong> messages sent through the in-game chat during an online match.</li>
+        </ul>
+        <p>ChessKing does not request GPS location to determine your country. The country shown in your profile may be inferred from your device's language and regional settings. ChessKing does not ask you to provide your age or gender as part of the described profile features.</p>
+      </section>
+
+      <section id="accounts">
+        <h2>4. Account Registration and Login</h2>
+        <p>You can create or access an account using Google, Facebook, or an email address and password. Firebase Authentication is used to support account authentication.</p>
+        <p>When you register using email, your email address is processed for account creation and authentication. ChessKing may create a default username and profile image for you. You can change your username and choose another available in-app profile image.</p>
+      </section>
+
+      <section id="facebook">
+        <h2>5. Facebook Login</h2>
+        <p>If you choose Facebook Login, the sign-in process uses Facebook's authentication services together with Firebase Authentication. ChessKing is designed to use the display name for your player-facing identity and does not intentionally request additional Facebook profile details such as your email address, date of birth, gender, or location for this feature.</p>
+        <p>Authentication providers may process technical identifiers, tokens, or other information necessary to authenticate your sign-in. Facebook's handling of information is also governed by <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Meta's Privacy Policy</a>.</p>
+      </section>
+
+      <section id="guest">
+        <h2>6. Guest Accounts</h2>
+        <p>You can use guest access without completing the standard account registration process. Guest accounts may be created through Firebase's anonymous authentication functionality. Anonymous accounts may be subject to Firebase's automatic cleanup settings. The exact cleanup timing depends on the applicable Firebase configuration and service rules.</p>
+        <p>If you want to preserve an account and its progress, use an available account-linking or registration option if offered in the application.</p>
+      </section>
+
+      <section id="profiles">
+        <h2>7. Player Profiles and Social Information</h2>
+        <p>Each player is assigned a ChessKing Player ID. You may choose a starting ELO rating from the options offered in the application. Your rating and other game-related profile information may change as you play.</p>
+        <p>You may add social media links, such as Facebook or Instagram, to your profile. These links can be viewed by other players and may open external services. Only add information that you are comfortable making available to other users.</p>
+        <p>Premium features may provide additional profile images and the ability to upload a personal profile image from your device. Uploaded images are stored in Firebase Storage and associated with your account.</p>
+      </section>
+
+      <section id="gameplay">
+        <h2>8. Gameplay, Matches, and Chess Analysis</h2>
+        <p>ChessKing processes game information to provide online matches, local games, games against the Stockfish engine, puzzles, rankings, statistics, and achievements.</p>
+        <p>Chess move analysis and suggestion data described as in-game analysis are processed locally on your device. These analysis results are not intended to be uploaded to or stored in Firebase or another ChessKing cloud database. Local analysis data is cleared before a new match as part of the app's current workflow.</p>
+        <p>Online match information needed to operate and synchronize a match may be stored on Firebase services. This is separate from the local analysis data described above.</p>
+      </section>
+
+      <section id="chat">
+        <h2>9. In-Game Chat</h2>
+        <p>When you use in-game chat during an online match, your messages are temporarily processed and stored through Firebase so they can be delivered to the players in that match. Chat messages are intended to be deleted after the match ends.</p>
+        <p>Do not send sensitive personal information through the in-game chat. ChessKing currently does not provide a player blocking or reporting feature.</p>
+      </section>
+
+      <section id="premium">
+        <h2>10. Premium Subscriptions and Payments</h2>
+        <p>ChessKing may offer optional Premium subscriptions through Google Play Billing. Premium benefits may include additional profile images, premium chess piece and board designs, profile image uploads, increased or unlimited access to certain analysis and puzzle features, and other in-app benefits described at the time of purchase.</p>
+        <p>Payment transactions are handled by Google Play. ChessKing does not receive or store your complete payment card details. Google may process purchase and subscription information under its own terms and privacy policy. For subscription management, refunds, and billing questions, refer to Google Play.</p>
+      </section>
+
+      <section id="firebase">
+        <h2>11. Firebase Services</h2>
+        <p>ChessKing uses Google Firebase services to support core app functionality. Depending on the feature, these may include:</p>
+        <ul>
+          <li><strong>Firebase Authentication</strong> for account registration and sign-in.</li>
+          <li><strong>Cloud Firestore</strong> for player profiles, game-related data, and other application information.</li>
+          <li><strong>Firebase Storage</strong> for profile images uploaded by users.</li>
+          <li><strong>Cloud Functions</strong> for server-side application operations.</li>
+        </ul>
+        <p>Firebase services process information on behalf of the application to provide these features. Google's processing is also subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and applicable Firebase terms.</p>
+      </section>
+
+      <section id="analytics">
+        <h2>12. Analytics, Tracking, and Crash Reporting</h2>
+        <p>ChessKing does not currently integrate Firebase Analytics as an app analytics feature, and it does not currently use a dedicated crash-reporting service to collect crash logs.</p>
+        <p>This statement concerns analytics and crash-reporting integrations in ChessKing. It does not mean that infrastructure, authentication, app-store, or other service providers never process technical information required to provide, secure, and operate their services.</p>
+      </section>
+
+      <section id="sharing">
+        <h2>13. Sharing of Information</h2>
+        <p>ChessKing does not sell your personal information. Information may be processed or made available in the following limited situations:</p>
+        <ul>
+          <li><strong>Other players:</strong> profile information, public-facing player details, match-related information, and social links may be visible to other players as part of the app's social and gameplay features.</li>
+          <li><strong>Service providers:</strong> Google Firebase, Google Play, Facebook/Meta, and other providers involved in features you choose to use may process information to provide their services.</li>
+          <li><strong>Legal and safety requirements:</strong> information may be disclosed if required by applicable law or valid legal process, or when reasonably necessary to protect rights, safety, and the integrity of the service.</li>
+        </ul>
+      </section>
+
+      <section id="retention">
+        <h2>14. Data Retention</h2>
+        <p>We retain account and gameplay information for as long as needed to provide ChessKing, maintain player accounts and rankings, meet legitimate operational needs, and comply with applicable legal obligations.</p>
+        <p>In-game chat is intended to be temporary and deleted after a match ends. Local chess analysis data is stored on your device and cleared before a new match. Guest account cleanup may also occur under Firebase's anonymous-account cleanup settings; the exact timing is controlled by the applicable service configuration.</p>
+      </section>
+
+      <section id="deletion">
+        <h2>15. Account Deletion and Data Removal</h2>
+        <p>You can request deletion through the account deletion option located at the bottom of the Edit Profile screen in ChessKing. The app asks you to confirm before proceeding.</p>
+        <p>When account deletion is successfully completed, ChessKing is designed to delete the Firebase account and associated application data, which may include your player profile, ELO and statistics, achievements, uploaded profile image, friends-related data, and other records associated with your account. You are also signed out.</p>
+        <p>Some information may remain temporarily in service-provider backups, security records, or other systems where immediate removal is not technically possible or where retention is required by law. Such information is handled according to the relevant provider's retention and deletion processes.</p>
+        <p>If you cannot access the in-app deletion option, contact us at <a href="mailto:green.store.support@gmail.com">green.store.support@gmail.com</a>.</p>
+      </section>
+
+      <section id="security">
+        <h2>16. Data Security</h2>
+        <p>We rely on the security features and access controls provided by the application architecture and service providers, including Firebase. However, no method of electronic storage or transmission is completely secure. You should use a strong password where applicable and keep your sign-in credentials private.</p>
+      </section>
+
+      <section id="children">
+        <h2>17. Children's Privacy</h2>
+        <p>ChessKing is a general chess application and is not specifically designed as an app exclusively for children. The application may be used by people of different ages. We do not intentionally ask users to submit age or gender information as part of the described profile setup.</p>
+        <p>Parents or guardians should supervise children's use of online features, including player profiles, social links, and in-game chat. If you believe a child has provided personal information in a way that should not have occurred, please contact us so we can review the request. Where applicable, use of the application by children and any required parental consent are subject to the laws and platform requirements that apply in the user's location.</p>
+      </section>
+
+      <section id="international">
+        <h2>18. International Users and Data Transfers</h2>
+        <p>ChessKing may be used from different countries. The service providers used by ChessKing may process or store information on servers located in countries other than your own. Where required, such processing and transfers are subject to applicable data protection requirements and the safeguards offered by the relevant providers.</p>
+      </section>
+
+      <section id="rights">
+        <h2>19. Your Privacy Rights</h2>
+        <p>Depending on where you live, you may have rights to request access to, correction of, or deletion of certain personal information, or to object to or restrict certain processing. You can manage some profile information directly in the application and request account deletion using the in-app option described above.</p>
+        <p>For privacy questions or requests, contact <a href="mailto:green.store.support@gmail.com">green.store.support@gmail.com</a>. We may need to verify your account or request before responding.</p>
+      </section>
+
+      <section id="thirdparty">
+        <h2>20. Third-Party Services and External Links</h2>
+        <p>ChessKing may connect to third-party services such as Google, Facebook, Google Play, and Firebase, or display social links added by players. These services and external websites have their own privacy policies and terms. We encourage you to review them before using those services.</p>
+        <p>The Stockfish chess engine is used to provide computer gameplay and chess-related analysis functionality. Chess analysis performed locally on your device is described in Section 8.</p>
+      </section>
+
+      <section id="changes">
+        <h2>21. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy when the application, its features, service providers, or applicable requirements change. The updated version will be made available at this page, and the “Last updated” date will be revised. Please review this page periodically.</p>
+      </section>
+
+      <section id="contact">
+        <h2>22. Contact Us</h2>
+        <p>If you have questions, concerns, or requests about this Privacy Policy or ChessKing's handling of information, contact:</p>
+        <p><strong>ChessKing Support</strong><br>
+          Email: <a href="mailto:green.store.support@gmail.com">green.store.support@gmail.com</a><br>
+          Publisher name: Green Store
+        </p>
+        <p class="note">Please do not include passwords or payment card details in privacy-related emails.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="wrap">© 2026 ChessKing. All rights reserved.</div>
+  </footer>
+</body>
+</html>
